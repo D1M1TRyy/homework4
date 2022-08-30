@@ -1,0 +1,380 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: inline-block;
+    margin-left: 126px;
+    margin-right: 270px;
+}
+nav{
+    width: 100%;
+    padding: 30px 0;
+}
+header{
+    border-bottom: 1px solid black;
+}
+ul {
+    text-align: center;
+    display: inline-block;
+
+}
+nav ul li{ 
+    display: inline-block;
+}
+nav ul li:not(:last-child){
+    margin-right: 66px;
+}
+nav ul li:last-child{
+    margin-right: 367px;
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0 32;
+    width: 54px;
+    height: 27px;
+    line-height: 27px;
+}
+.profile-wrapper{
+    width: 16px;
+    height: 18.63px;
+    display: inline-block;
+}
+.name{
+    text-align: center;
+    margin: 77px;
+}
+
+.cards{
+    margin: 65px;
+    padding-left: 20px;
+}
+.cardone, .cardtwo, .cardthree{
+    display: inline-block;
+    padding: 20px;
+}
+.cardone{
+    width: 333px;
+    height: 487px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    
+}
+ .card-img{
+    width: 100%;
+}
+.cardtwo{
+    width: 333px;
+    height: 487px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    margin: 0 90px;
+}
+.cardthree{
+    width: 333px;
+    height: 487px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+.img{
+    height: 375px;
+    width: 400px;
+    width: 375px;   
+}
+.img .card-img{
+    height: 100%;
+    width: 75%;
+    object-fit: cover;
+}
+.text{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.text h3{
+    margin: 19px 10px;
+}
+.button-one{
+    margin-left: 300px;
+    display: inline-block;
+}
+.button-two{
+    margin-left: 310px;
+    display: inline-block;
+}
+.button-three{
+    margin-left: 310px;
+    display: inline-block;
+}
+.button{
+    padding: 6px 26px;
+    border: 1px solid #000000;
+    border-radius: 4px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.discription-one{
+    display: inline-block;
+    margin-left: 110px;
+}
+.discription-two{
+    margin-left: 170px;
+    display: inline-block;
+}
+.discription-three{
+    display: inline-block;
+    margin-left: 162px;
+}
+.discription-one, .discription-two, .discription-three{
+    width: 263px;
+    height: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 215%;
+    padding: 66px 0;
+}
+.see-moree{
+    margin-left: 1178px;
+    margin-top: 30px;
+}
+.about-us{
+    text-align: center;
+    margin-top: 134px;
+    color: #7D0000;
+}
+.about-text{
+    width: 650px;
+    height: 205px;
+    font-weight: 600px;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 135px;
+    margin-left: 126px;
+    display: inline-block;
+}
+.about-photo{
+    width: 500px;
+    height: 333.33px;
+    border-radius: 20px;    
+    margin-left: 60px; 
+    margin-top: 185px;
+    display: inline-block;
+}
+.about-addres{
+    width: 327px;
+    height: 29px;
+    display: inline-block;
+    margin-top: 84px;
+    margin-left: 500px;
+}
+.blog-name{
+    display: inline-block;
+    margin-top: 72px;
+    margin-left: 126px;
+}
+.blog-sarch{
+   display: inline-block;
+   margin-left: 433px;
+}
+.blog-sarch input{
+    padding: 17px 60px;
+    padding-right: 100px;
+}
+.blog-sarch, .blog-frame{
+    width: 20px;
+    height: 49px;
+}
+.blog-icon{
+   width: 26px;
+   height: 20px;
+   display: inline-block;
+   text-align: center;
+   padding: 70px 0;
+}
+.blog-sarcher{
+    text-align: center;
+}
+.blog-sarcher ul li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 93px;
+    padding-right: 65px;
+    color: #000;
+}
+.blog-img1{
+    display: inline-block;
+}
+.blog-img1 img{
+    width: 300px;
+    height: 228px;
+    margin-top: 68px;
+    margin-left: 94px;
+}
+.blog-discription, .blog-h p{
+    display: inline-block;
+    padding: 22px 36px;
+}
+.blog-discription, .blog-title p{
+    display: inline-block;
+    width: 850px;
+    height: 124px;
+    line-height: 17px;
+}
+.blog-discription{
+    display: inline-block;
+    background: #E5EBE5;
+    width: 918px;
+    height: 228px;
+    margin-left: 22px;
+    margin-top: 68px;
+}
+.blog-img2{
+    display: inline-block;
+}
+.blog-img2 img{
+    display: inline-block;
+    width: 300px;
+    height: 228px;
+    margin-top: 170px;
+    margin-left: 94px;
+}
+.blog-discription2, .blog-h p{
+    display: inline-block;
+    padding: 22px 36px;
+}
+.blog-discription2, .blog-title p{
+    display: inline-block;
+    width: 850px;
+    height: 124px;
+    line-height: 17px;
+}
+.blog-discription2{
+    background: #E5EBE5;
+    width: 918px;
+    height: 228px;
+    margin-left: 22px;
+}
+.blog-button .buton{
+    padding: 11px 27px;
+    margin-left: 1174px;
+    margin-top: 14px;
+    border: 1px solid #000000;
+    border-radius: 4px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.contact-us{
+    text-align: center;
+    margin-top: 147px;
+    color: #7D0000;
+}
+.email p{
+    display: inline-block;
+    text-align: center;
+    margin-top: 119px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+.email{
+    text-align: center;
+}
+.email-2 p{
+    display: inline-block;
+    text-align: center;
+    margin-top: 34px;
+    margin-left: 330px;
+    margin-right: 250px;
+}
+.email{
+    text-align: center;
+}
+.map{
+    margin-top: 144px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.profile-im {
+    display: inline-block;
+    margin-top: 169px;
+    margin-left: 206px;
+}
+.profile-h{
+    display: inline-block;
+    width: 206px;
+    height: 45px;
+}
+.profile-p{
+    display: inline-block;
+    width: 199px;
+    height: 33px;
+    color: #546CCC;
+}
+.profile-about{
+    margin-top: 96px;
+    margin-left: 245px;
+    border-bottom: 1px solid #7D0000;
+    width: 135px;
+}
+.profile-text1 h3{
+    display: inline-block;
+    margin-left: 237px;
+    margin-right: 161px;
+    margin-top: 58px;
+}
+.profile-text1 p{
+    display: inline-block;
+}
+.profile-text2 h3{
+    display: inline-block;
+    margin-left: 237px;
+    margin-right: 147px;
+    margin-top: 30px;
+}
+.profile-text2 p{
+    display: inline-block;
+}
+.profile-text3 h3{
+    display: inline-block;
+    margin-left: 237px;
+    margin-right: 144px;
+    margin-top: 30px;
+}
+.profile-text3 p{
+    display: inline-block;
+}
+.profile-button, .buton{
+    padding: 24px 32px;
+    color: white;
+    width: 201px;
+    height: 38px;
+    text-decoration: none;
+}
+.profile-button{
+    background: #87AC87;
+    border-radius: 10px;
+    width: 265px;
+    height: 70px;
+    margin-left: 951px;
+    margin-top: 25px;
+}
